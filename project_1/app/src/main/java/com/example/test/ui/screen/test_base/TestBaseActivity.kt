@@ -13,8 +13,4 @@ class TestBaseActivity : MvpActivity(){
             TestBaseView.ViewCreator(this, null)
         )
     }
-
-
-
-
 }
