@@ -7,13 +7,6 @@ import vn.minerva.core.base.domain.mapper.Mapper
 class TestBaseMapper : Mapper<String, MutableList<ViewModel>>{
     override fun map(input: String): MutableList<ViewModel> {
         val listReturn = mutableListOf<ViewModel>()
-        listReturn.add(TestBaseViewModel(
-            name = "asfasf"
-        ))
-
-        listReturn.add(TestBaseViewModel(
-            name = "asfasf"
-        ))
 
         listReturn.add(TestBaseViewModel(
             name = "asfasf"
