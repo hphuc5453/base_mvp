@@ -11,6 +11,7 @@ class TestBaseMapper : Mapper<String, MutableList<ViewModel>> {
         listReturn.add(
             TestBaseViewModel(
                 name = "asfasf"
+            //adasdaasdas
             )
         )
 
@@ -21,13 +22,6 @@ class TestBaseMapper : Mapper<String, MutableList<ViewModel>> {
         )
         return listReturn
 
-        listReturn.add(TestBaseViewModel(
-            name = "asfasf"
-        ))
-
-        listReturn.add(TestBaseViewModel(
-            name = "asfasf"
-        ))
 
         listReturn.add(TestBaseViewModel(
             name = "asfasf"
