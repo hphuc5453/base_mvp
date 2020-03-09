@@ -4,7 +4,7 @@ import android.content.res.Resources
 import android.graphics.drawable.Drawable
 import androidx.annotation.*
 import androidx.core.content.ContextCompat
-import vn.minerva.core.app.common.AppConfigs
+import com.example.test.core.app.common.AppConfigs
 
 
 class AndroidResourceManager : ResourceManager {

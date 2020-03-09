@@ -6,7 +6,7 @@ import android.graphics.drawable.GradientDrawable
 import android.graphics.drawable.ShapeDrawable
 import androidx.annotation.*
 import androidx.core.content.ContextCompat
-import vn.minerva.core.app.common.AppConfigs
+import com.example.test.core.app.common.AppConfigs
 
 class Util {
     class Resource {

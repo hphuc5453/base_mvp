@@ -1,6 +1,6 @@
 @file:Suppress("DEPRECATION")
 
-package vn.minerva.core.app.util
+package com.example.test.core.app.util
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -27,6 +27,8 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.core.app.ActivityCompat
 import com.example.test.R
+import com.example.test.app.domain.excecutor.EventFireUtil
+import com.example.test.core.app.common.AppConfigs
 import com.google.android.material.textfield.TextInputLayout
 import kotlinex.collection.getValueOrDefault
 import kotlinex.date.format
@@ -36,8 +38,6 @@ import kotlinex.string.getValueOrDefaultIsEmpty
 import kotlinex.string.toDate
 import kotlinex.view.invisible
 import kotlinex.view.visible
-import vn.minerva.core.app.common.AppConfigs
-import vn.minerva.core.app.domain.excecutor.EventFireUtil
 import vn.minerva.core.base.domain.listener.OnActionData
 import vn.minerva.core.base.presentation.mvp.android.MvpActivity
 import java.security.MessageDigest

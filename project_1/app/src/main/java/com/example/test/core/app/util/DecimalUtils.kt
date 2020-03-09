@@ -1,4 +1,4 @@
-package vn.minerva.core.app.util
+package com.example.test.core.app.util
 
 import java.math.BigDecimal
 import java.math.RoundingMode

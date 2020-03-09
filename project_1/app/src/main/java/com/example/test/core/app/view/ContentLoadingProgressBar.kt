@@ -7,7 +7,7 @@ import android.os.SystemClock
 import android.util.AttributeSet
 import android.view.View
 import android.widget.ProgressBar
-import vn.minerva.core.app.domain.excecutor.EventFireUtil
+import com.example.test.app.domain.excecutor.EventFireUtil
 import vn.minerva.core.base.domain.listener.OnActionNotify
 
 class ContentLoadingProgressBar : ProgressBar {

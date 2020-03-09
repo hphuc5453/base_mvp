@@ -1,4 +1,4 @@
-package vn.minerva.core.app.common
+package com.example.test.core.app.common
 
 import android.annotation.SuppressLint
 import android.app.Application

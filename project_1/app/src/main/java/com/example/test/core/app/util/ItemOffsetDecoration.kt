@@ -1,4 +1,4 @@
-package vn.minerva.core.app.util
+package com.example.test.core.app.util
 
 import android.graphics.Rect
 import android.view.View

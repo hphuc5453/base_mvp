@@ -1,4 +1,4 @@
-package vn.minerva.core.app.util
+package com.example.test.core.app.util
 
 enum class DateTimeFormat(val format: String) {
     DDMMYY_HHMM("dd/MM/yyyy HH:mm"),

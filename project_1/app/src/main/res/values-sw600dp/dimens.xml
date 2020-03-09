@@ -1,0 +1,160 @@
+<resources>
+
+    <!-- 600dp. gấp 1.875 so với 320dp -->
+    <!-- Spacing. Độ lớn tăng dần. -->
+    <dimen name="spacing_0_4dp">6dp</dimen>
+    <dimen name="spacing_1_6dp">9dp</dimen>
+    <dimen name="spacing_1_8dp">12dp</dimen>
+    <dimen name="spacing_2_16dp">24dp</dimen>
+    <dimen name="spacing_2_20dp">32dp</dimen>
+    <dimen name="spacing_3_24dp">36dp</dimen>
+    <dimen name="spacing_3_26dp">39dp</dimen>
+    <dimen name="spacing_3_28dp">42dp</dimen>
+    <dimen name="spacing_3_30dp">45dp</dimen>
+    <dimen name="spacing_4_32dp">48dp</dimen>
+    <dimen name="spacing_5_40dp">60dp</dimen>
+    <dimen name="spacing_6_default_48dp">72dp</dimen>
+    <dimen name="spacing_7_56dp">84dp</dimen>
+    <dimen name="spacing_8_64dp">96dp</dimen>
+    <dimen name="spacing_9_72dp">108dp</dimen>
+    <!-- Text. Độ lớn tăng dần. -->
+    <dimen name="text_0_8sp">12dp</dimen>
+    <dimen name="text_1_10sp">15dp</dimen>
+    <dimen name="text_2_12sp">18dp</dimen>
+    <dimen name="text_3_14sp">21dp</dimen>
+    <dimen name="text_3_15sp">22.5dp</dimen>
+    <dimen name="text_4_medium_16sp">24dp</dimen>
+    <dimen name="text_4_18sp">28dp</dimen>
+    <dimen name="text_5_20sp">30dp</dimen>
+    <dimen name="text_5_22sp">33dp</dimen>
+    <dimen name="text_6_24sp">36dp</dimen>
+    <dimen name="text_7_28sp">42dp</dimen>
+    <dimen name="text_8_32sp">48dp</dimen>
+    <dimen name="text_9_36sp">54dp</dimen>
+    <!-- Header. -->
+    <dimen name="button_padding">22dp</dimen>
+    <dimen name="button_header_padding">18dp</dimen>
+    <dimen name="header_height">72dp</dimen>
+    <dimen name="header_padding">19dp</dimen>
+    <!-- Button. -->
+    <dimen name="button_expand_width">25.5dp</dimen>
+    <dimen name="button_next_width">37.5dp</dimen>
+    <dimen name="button_header_height">35dp</dimen>
+    <dimen name="header_notification">25dp</dimen>
+    <dimen name="button_height">67.5dp</dimen>
+    <dimen name="button_min_width">165dp</dimen>
+    <dimen name="button_wallpaper_width">320dp</dimen>
+    <!-- Line. -->
+    <dimen name="line_height">2px</dimen>
+    <!-- Dialog. -->
+    <dimen name="dialog_width">484dp</dimen>
+    <dimen name="dialog_icon_height">45dp</dimen>
+    <dimen name="dialog_loading_progress_bar">81dp</dimen>
+    <!-- Edittext PIN. -->
+    <dimen name="edittext_pin_width">100dp</dimen>
+    <dimen name="edittext_pin_margin">34.5dp</dimen>
+    <!-- Simple balance activity -->
+    <dimen name="simplebalance_item_height">244dp</dimen>
+    <dimen name="simplebalance_stick_icon">50.5dp</dimen>
+    <!-- Account activity. -->
+    <dimen name="bg1_height">71dp</dimen>
+    <dimen name="bg2_height">155.5dp</dimen>
+    <!-- Account Details activity. -->
+    <dimen name="layout_button_height">120dp</dimen>
+    <dimen name="item_header_height">30dp</dimen>
+    <dimen name="item_content1_height">94dp</dimen>
+    <dimen name="filter_layout_height">79dp</dimen>
+    <dimen name="item_content2_height">141dp</dimen>
+    <dimen name="sub_account_icon_width">94dp</dimen>
+    <dimen name="spinner_width">215dp</dimen>
+    <!-- Home activity. -->
+    <dimen name="icon_home_height">75dp</dimen>
+    <dimen name="icon_menu_width">62dp</dimen>
+    <dimen name="content_width">491dp</dimen>
+    <dimen name="content_height">411.5dp</dimen>
+    <dimen name="content_margintop">104dp</dimen>
+    <!-- Register screen. -->
+    <dimen name="logon_padding_edit_text">17dp</dimen>
+    <!-- Welcome screen. -->
+    <dimen name="logo_width">222dp</dimen>
+    <dimen name="logo_margin_top">176dp</dimen>
+    <dimen name="logo_width_menu">177.5dp</dimen>
+    <!-- Menu left. -->
+    <dimen name="item_margin">5.5dp</dimen>
+    <dimen name="dialog_loading_width">187.5dp</dimen>
+    <dimen name="dialog_pb_width">62.5dp</dimen>
+    <!-- Transfer detail. -->
+    <dimen name="transfer_header1_height">43dp</dimen>
+    <dimen name="transfer_header2_height">53.5dp</dimen>
+    <dimen name="transfer_content1_height">193.5dp</dimen>
+    <dimen name="account_width">356dp</dimen>
+    <dimen name="btn_next_width">40dp</dimen>
+    <dimen name="item_des_height">64dp</dimen>
+    <!-- Pay someone. -->
+    <dimen name="item_address_height">112dp</dimen>
+    <dimen name="content1_height">244dp</dimen>
+    <dimen name="content2_height">179dp</dimen>
+    <!-- Select lang. -->
+    <dimen name="lang_width">281dp</dimen>
+    <dimen name="icon_lang_width">50dp</dimen>
+    <!-- Keyboard layout -->
+    <dimen name="keyboard_height">430dp</dimen>
+    <!-- Pay bill. -->
+    <dimen name="service_icon_width">120dp</dimen>
+    <!-- Home Pager. -->
+    <dimen name="hp_icon_margin_top">55dp</dimen>
+    <dimen name="hp_icon_height">65dp</dimen>
+    <dimen name="hp_layout_info_height">280dp</dimen>
+    <!-- interest rate. -->
+    <dimen name="title_height">82dp</dimen>
+
+    <dimen name="btn_join_width">210dp</dimen>
+    <dimen name="btn_join_height">51dp</dimen>
+
+    <dimen name="btn_back_width">150dp</dimen>
+    <dimen name="btn_back_height">50dp</dimen>
+
+    <dimen name="campaign_width">470dp</dimen>
+    <dimen name="icon_sent">110dp</dimen>
+
+    <dimen name="inbox_width">500dp</dimen>
+    <dimen name="item_schedule_big_height">210dp</dimen>
+    <dimen name="item_schedule_height">169dp</dimen>
+
+    <dimen name="btn_close_account_w">67dp</dimen>
+    <dimen name="layout_card_height">320dp</dimen>
+    <dimen name="menu_item_height">65dp</dimen>
+    <dimen name="header_max_width">320dp</dimen>
+    <dimen name="layout_goal_icon_height">420dp</dimen>
+    <dimen name="pb_circular_size">180dp</dimen>
+    <dimen name="content3_height">135dp</dimen>
+    <dimen name="lm_item_ben_height">154dp</dimen>
+    <dimen name="user_ava_size">65dp</dimen>
+    <dimen name="lm_receipt_margin_top">250dp</dimen>
+    <dimen name="ecard_width">356dp</dimen>
+    <dimen name="ecard_height">506dp</dimen>
+    <dimen name="ecard_border_width">371dp</dimen>
+    <dimen name="ecard_border_height">521dp</dimen>
+    <dimen name="dialog_card_height">712dp</dimen>
+    <dimen name="lixi_height">652dp</dimen>
+
+    <dimen name="ecard_width2">427dp</dimen>
+    <dimen name="ecard_height2">607dp</dimen>
+    <dimen name="ecard_border_width2">445dp</dimen>
+    <dimen name="ecard_border_height2">625dp</dimen>
+    <dimen name="intro_img_width">300dp</dimen>
+    <dimen name="intro_icon_width">60dp</dimen>
+    <dimen name="clickable_btn">60dp</dimen>
+    <dimen name="card_button_height">127dp</dimen>
+    <dimen name="card_height">226dp</dimen>
+    <dimen name="line_chart_height">375dp</dimen>
+    <dimen name="ben_title_height">69dp</dimen>
+    <dimen name="edit_layout_width">225dp</dimen>
+    <dimen name="pie_chart_height">350dp</dimen>
+    <dimen name="height_40dp">75dp</dimen>
+    <dimen name="account_bar_height">64dp</dimen>
+    <dimen name="my_card_height">375dp</dimen>
+    <dimen name="dialog_content_min_height">112dp</dimen>
+    <dimen name="card_info_height">260dp</dimen>
+    <dimen name="spacing_1_12dp">16dp</dimen>
+</resources>
