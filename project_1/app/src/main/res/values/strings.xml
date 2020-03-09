@@ -25,4 +25,5 @@
     <string name="ACTION_NO">No</string>
     <string name="ACTION_YES">Yes</string>
     <string name="ACTION_OK">OK</string>
+    <string name="text_save">Lưu</string>
 </resources>

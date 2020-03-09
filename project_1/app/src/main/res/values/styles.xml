@@ -16,5 +16,561 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="StyleTextView">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="StyleTextView.SupperSmall">
+        <item name="android:textSize">@dimen/text_1_10sp</item>
+    </style>
+
+    <style name="StyleTextView.Small">
+        <item name="android:textSize">@dimen/text_2_12sp</item>
+    </style>
+
+    <style name="StyleTextView.SmallX">
+        <item name="android:textSize">@dimen/text_1_11sp</item>
+    </style>
+
+    <style name="StyleTextView.SmallXX">
+        <item name="android:textSize">@dimen/text_2_13sp</item>
+    </style>
+
+    <style name="StyleTextView.Normal">
+        <item name="android:textSize">@dimen/text_3_14sp</item>
+    </style>
+
+    <style name="StyleTextView.SupperNormal">
+        <item name="android:textSize">@dimen/text_3_15sp</item>
+    </style>
+
+    <style name="StyleTextView.Medium">
+        <item name="android:textSize">@dimen/text_4_medium_16sp</item>
+    </style>
+
+    <style name="StyleTextView.MediumX">
+        <item name="android:textSize">@dimen/text_4_medium_17sp</item>
+    </style>
+
+    <style name="StyleTextView.MediumLarge">
+        <item name="android:textSize">@dimen/text_4_18sp</item>
+    </style>
+
+    <style name="StyleTextView.Large">
+        <item name="android:textSize">@dimen/text_5_20sp</item>
+    </style>
+
+    <style name="StyleTextView.LargeX">
+        <item name="android:textSize">@dimen/text_5_22sp</item>
+    </style>
+
+    <style name="StyleTextView.SuperHug">
+        <item name="android:textSize">@dimen/text_8_32sp</item>
+    </style>
+
+    <style name="StyleTextView.Huge">
+        <item name="android:textSize">@dimen/text_6_24sp</item>
+    </style>
+
+    <style name="StyleTextView.MidHuge">
+        <item name="android:textSize">@dimen/text_7_28sp</item>
+    </style>
+
+    <style name="StyleTextView.SupperSmall.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="StyleTextView.SupperSmall.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleTextView.SupperSmall.Silver">
+        <item name="android:textColor">@color/silver_text</item>
+    </style>
+
+    <style name="StyleTextView.SupperSmall.Orange">
+        <item name="android:textColor">@color/orange_text</item>
+    </style>
+
+    <style name="StyleTextView.SupperSmall.Primary">
+        <item name="android:textColor">@color/c_g_app_text_primary</item>
+    </style>
+
+    <style name="StyleTextView.SupperSmall.219DFD">
+        <item name="android:textColor">@color/color_219dfd</item>
+    </style>
+
+    <style name="StyleTextView.Small.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="StyleTextView.Small.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleTextView.Small.Silver">
+        <item name="android:textColor">@color/silver_text</item>
+    </style>
+
+    <style name="StyleTextView.Small.Blue">
+        <item name="android:textColor">@color/blue_text</item>
+    </style>
+
+    <style name="StyleTextView.Small.Orange">
+        <item name="android:textColor">@color/orange_text</item>
+    </style>
+
+    <style name="StyleTextView.Small.Primary">
+        <item name="android:textColor">@color/c_g_app_text_primary</item>
+    </style>
+
+    <style name="StyleTextView.Small.9EABBE">
+        <item name="android:textColor">@color/grey_9eabbe</item>
+    </style>
+
+    <style name="StyleTextView.Small.DB5A5A">
+        <item name="android:textColor">@color/color_db5a5a</item>
+    </style>
+
+    <style name="StyleTextView.Small.6D6D6D">
+        <item name="android:textColor">@color/color_6d6d6d</item>
+    </style>
+
+    <style name="StyleTextView.Small.6D30AB">
+        <item name="android:textColor">@color/color_6d30ab</item>
+    </style>
+
+    <style name="StyleTextView.SmallX.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleTextView.SmallXX.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleTextView.SmallXX.4A3BCC">
+        <item name="android:textColor">@color/color_4a3bcc</item>
+    </style>
+
+    <style name="StyleTextView.Normal.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="StyleTextView.Normal.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleTextView.Normal.Black333333">
+        <item name="android:textColor">@color/black_text_333333</item>
+    </style>
+
+    <style name="StyleTextView.Normal.GreenLight">
+        <item name="android:textColor">@color/color_399b54</item>
+    </style>
+
+    <style name="StyleTextView.Normal.SilverLight">
+        <item name="android:textColor">@color/color_6d6d6d</item>
+    </style>
+
+    <style name="StyleTextView.Normal.Yerlow">
+        <item name="android:textColor">@color/color_e9c301</item>
+    </style>
+
+    <style name="StyleTextView.Normal.Silver">
+        <item name="android:textColor">@color/silver_text</item>
+    </style>
+
+    <style name="StyleTextView.Normal.Blue">
+        <item name="android:textColor">@color/blue_text</item>
+    </style>
+
+    <style name="StyleTextView.Normal.BlueLight">
+        <item name="android:textColor">@color/color_67a0f5</item>
+    </style>
+
+    <style name="StyleTextView.Normal.Orange">
+        <item name="android:textColor">@color/orange_text</item>
+    </style>
+
+    <style name="StyleTextView.Normal.Primary">
+        <item name="android:textColor">@color/c_g_app_text_primary</item>
+    </style>
+
+    <style name="StyleTextView.Normal.6D6D6D">
+        <item name="android:textColor">@color/color_6d6d6d</item>
+    </style>
+
+    <style name="StyleTextView.Normal.6D30AB">
+        <item name="android:textColor">@color/color_6d30ab</item>
+    </style>
+
+    <style name="StyleTextView.Normal.4A3BCC">
+        <item name="android:textColor">@color/color_4a3bcc</item>
+    </style>
+
+    <style name="StyleTextView.Normal.399B54">
+        <item name="android:textColor">@color/color_399b54</item>
+    </style>
+
+    <style name="StyleTextView.Normal.219DFD">
+        <item name="android:textColor">@color/color_219dfd</item>
+    </style>
+
+    <style name="StyleTextView.Normal.F69524">
+        <item name="android:textColor">@color/color_f69524</item>
+    </style>
+
+    <style name="StyleTextView.Normal.E94C4C">
+        <item name="android:textColor">@color/color_e94c4c</item>
+    </style>
+
+    <style name="StyleTextView.SupperNormal.Grey">
+        <item name="android:textColor">@color/grey_9eabbe</item>
+    </style>
+
+    <style name="StyleTextView.Medium.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="StyleTextView.Medium.Red">
+        <item name="android:textColor">@color/color_e94c4c</item>
+    </style>
+
+    <style name="StyleTextView.Medium.Blue">
+        <item name="android:textColor">@color/color_219dfd</item>
+    </style>
+
+    <style name="StyleTextView.SupperNormal.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="StyleTextView.Medium.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleTextView.Medium.Silver">
+        <item name="android:textColor">@color/silver_text</item>
+    </style>
+
+    <style name="StyleTextView.Medium.Orange">
+        <item name="android:textColor">@color/orange_text</item>
+    </style>
+
+    <style name="StyleTextView.Medium.Primary">
+        <item name="android:textColor">@color/c_g_app_text_primary</item>
+    </style>
+
+    <style name="StyleTextView.Medium.219DFD">
+        <item name="android:textColor">@color/color_219dfd</item>
+    </style>
+
+    <style name="StyleTextView.Medium.828282">
+        <item name="android:textColor">@color/color_828282</item>
+    </style>
+
+    <style name="StyleTextView.MediumX.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleTextView.Large.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="StyleTextView.Large.BlackOpacity">
+        <item name="android:textColor">@color/black_text_333333</item>
+    </style>
+
+    <style name="StyleTextView.MediumLarge.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleTextView.MediumLarge.6D6D6D">
+        <item name="android:textColor">@color/color_6d6d6d</item>
+    </style>
+
+    <style name="StyleTextView.MediumLarge.6D30AB">
+        <item name="android:textColor">@color/color_6d30ab</item>
+    </style>
+
+    <style name="StyleTextView.Large.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleTextView.Large.Silver">
+        <item name="android:textColor">@color/silver_text</item>
+    </style>
+
+    <style name="StyleTextView.Large.Orange">
+        <item name="android:textColor">@color/orange_text</item>
+    </style>
+
+    <style name="StyleTextView.Large.Primary">
+        <item name="android:textColor">@color/c_g_app_text_primary</item>
+    </style>
+
+    <style name="StyleTextView.LargeX.6D30AB">
+        <item name="android:textColor">@color/color_6d30ab</item>
+    </style>
+
+    <style name="StyleTextView.LargeX.Purple">
+        <item name="android:textColor">@color/purple</item>
+    </style>
+
+    <style name="StyleTextView.Huge.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="StyleTextView.Huge.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleTextView.Huge.Silver">
+        <item name="android:textColor">@color/silver_text</item>
+    </style>
+
+    <style name="StyleTextView.Huge.Orange">
+        <item name="android:textColor">@color/orange_text</item>
+    </style>
+
+    <style name="StyleTextView.Huge.Primary">
+        <item name="android:textColor">@color/c_g_app_text_primary</item>
+    </style>
+
+    <style name="StyleTextView.Medium.BlackOpacity">
+        <item name="android:textColor">@color/black_opacity</item>
+    </style>
+
+    <style name="StyleTextView.Huge.BlackOpacity">
+        <item name="android:textColor">@color/black_opacity</item>
+    </style>
+
+    <style name="StyleTextView.Huge.333333">
+        <item name="android:textColor">@color/color_333333</item>
+    </style>
+
+    <style name="StyleTextView.SuperHug.Black">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_8_32sp</item>
+    </style>
+
+    <style name="StyleTextViewMedium">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="StyleTextViewMedium.SupperSmall">
+        <item name="android:textSize">@dimen/text_1_10sp</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Small">
+        <item name="android:textSize">@dimen/text_2_12sp</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Normal">
+        <item name="android:textSize">@dimen/text_3_14sp</item>
+    </style>
+
+    <style name="StyleTextViewMedium.SupperNormal">
+        <item name="android:textSize">@dimen/text_3_15sp</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Medium">
+        <item name="android:textSize">@dimen/text_4_medium_16sp</item>
+    </style>
+
+    <style name="StyleTextViewMedium.MediumLarge">
+        <item name="android:textSize">@dimen/text_4_18sp</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Large">
+        <item name="android:textSize">@dimen/text_5_20sp</item>
+    </style>
+
+    <style name="StyleTextViewMedium.SuperLarge">
+        <item name="android:textSize">@dimen/text_5_22sp</item>
+    </style>
+
+    <style name="StyleTextViewMedium.HugeX">
+        <item name="android:textSize">@dimen/text_8_30sp</item>
+    </style>
+
+    <style name="StyleTextViewMedium.SuperHug">
+        <item name="android:textSize">@dimen/text_8_32sp</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Huge">
+        <item name="android:textSize">@dimen/text_6_24sp</item>
+    </style>
+
+    <style name="StyleTextViewMedium.SupperSmall.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="StyleTextViewMedium.SupperSmall.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleTextViewMedium.SupperSmall.Silver">
+        <item name="android:textColor">@color/silver_text</item>
+    </style>
+
+    <style name="StyleTextViewMedium.SupperSmall.Orange">
+        <item name="android:textColor">@color/orange_text</item>
+    </style>
+
+    <style name="StyleTextViewMedium.SupperSmall.Primary">
+        <item name="android:textColor">@color/c_g_app_text_primary</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Small.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Small.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Small.Silver">
+        <item name="android:textColor">@color/silver_text</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Small.Blue">
+        <item name="android:textColor">@color/blue_text</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Small.Orange">
+        <item name="android:textColor">@color/orange_text</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Small.Primary">
+        <item name="android:textColor">@color/c_g_app_text_primary</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Normal.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="StyleTextViewMedium.SupperNormal.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Normal.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Normal.Silver">
+        <item name="android:textColor">@color/silver_text</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Normal.Blue">
+        <item name="android:textColor">@color/blue_text</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Normal.Orange">
+        <item name="android:textColor">@color/orange_text</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Normal.Primary">
+        <item name="android:textColor">@color/c_g_app_text_primary</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Normal.333333">
+        <item name="android:textColor">@color/color_333333</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Medium.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Medium.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Medium.Silver">
+        <item name="android:textColor">@color/silver_text</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Medium.Orange">
+        <item name="android:textColor">@color/orange_text</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Medium.Primary">
+        <item name="android:textColor">@color/c_g_app_text_primary</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Medium.6D30AB">
+        <item name="android:textColor">@color/color_6d30ab</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Medium.333333">
+        <item name="android:textColor">@color/color_333333</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Large.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="StyleTextViewMedium.MediumLarge.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleTextViewMedium.MediumLarge.Primary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="StyleTextViewMedium.MediumLarge.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="StyleTextViewMedium.MediumLarge.333333">
+        <item name="android:textColor">@color/color_333333</item>
+    </style>
+
+    <style name="StyleTextViewMedium.MediumLarge.6D30AB">
+        <item name="android:textColor">@color/color_6d30ab</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Large.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Large.Silver">
+        <item name="android:textColor">@color/silver_text</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Large.Orange">
+        <item name="android:textColor">@color/orange_text</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Large.Primary">
+        <item name="android:textColor">@color/c_g_app_text_primary</item>
+    </style>
+
+    <style name="StyleTextViewMedium.SuperLarge.Black">
+        <item name="android:textColor">@color/black_text_333333</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Huge.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Huge.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Huge.Silver">
+        <item name="android:textColor">@color/silver_text</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Huge.Orange">
+        <item name="android:textColor">@color/orange_text</item>
+    </style>
+
+    <style name="StyleTextViewMedium.Huge.Primary">
+        <item name="android:textColor">@color/c_g_app_text_primary</item>
+    </style>
 
 </resources>
