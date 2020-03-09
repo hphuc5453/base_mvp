@@ -3,6 +3,7 @@ package com.example.test.ui.screen.test_base.presentation.renderer
 import android.content.Context
 import android.view.View
 import com.example.test.R
+import com.example.test.core.app.util.image.GlideImageHelper
 import com.example.test.ui.screen.test_base.presentation.model.TestBaseViewModel
 import kotlinx.android.synthetic.main.item_layout_test_base.view.*
 import vn.minerva.core.base.presentation.mvp.android.model.ViewRenderer
