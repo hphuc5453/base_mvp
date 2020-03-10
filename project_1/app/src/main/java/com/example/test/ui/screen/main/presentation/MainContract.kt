@@ -26,7 +26,7 @@ interface MainContract {
     }
 
     abstract class MenuPresenter : MvpPresenter<MenuView>() {
-        //abstract fun loadListMenu(userModel : MenuHeaderViewModel)
+        abstract fun loadListMenu()
         abstract fun generateImageAvatar(title: String)
     }
 }
